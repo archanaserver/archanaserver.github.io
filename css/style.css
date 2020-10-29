@@ -1,0 +1,109 @@
+body {
+    background: white;
+    font-family: 'Ubuntu', Helvetica;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+}
+
+.main_container {
+    text-align: center;
+    width: 90%;
+	max-width: 1000px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.circle_frame {
+	width: 140px;
+	height: 140px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 3px solid #e4dcf1;
+	margin: 0 auto;
+}
+
+.profile_pic {
+    object-fit: contain;
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+
+a {
+	text-decoration: none;
+	color: hsl(273, 40%, 23%);
+}
+
+.username_link {
+	margin: 10px 0;
+}
+
+.about_me {
+	color: #4f5b66;
+    line-height: 25px;
+    word-spacing: 4px;
+    letter-spacing: 1.5px !important;
+}
+
+.light_green {
+    background-color: #E2F0CB;
+}
+
+.light_orange {
+    background-color: #FFDAC1;
+}
+
+.light_red {
+    background-color: #fec8c1;
+}
+
+.light_purple {
+    background-color: #C7CEEA;
+}
+
+.light_blue {
+    background-color: #cbdadb;   
+}
+
+.light_pink {
+    background-color: #eec9d2;
+}
+
+.list_links_item {
+	border: 1px solid lightgrey;
+	box-sizing: border-box;
+	margin: 20px auto;
+	padding: 15px;
+	text-align: center;
+	transition: all 0.15s;
+	border-radius: 50px;
+}
+
+.list_links_item:hover {
+	color: #ffffff;
+	text-shadow: 0 0 2em #ffffff;
+}
+
+.purple_box {
+    background-color: #CC99FF;
+}
+
+.yellow_box {
+    background-color: #FFFFBF; 
+}
+
+.green_box {
+    background-color: #B5EAD7;
+}
+
+.red_box {
+    background-color: #FFB1B0;
+}
+
+.orange_box {
+    background-color: #FFDFBE;
+}
+
